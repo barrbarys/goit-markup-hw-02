@@ -3,18 +3,20 @@
 .header {
 	background: #FFFFFF;
 }
-.footer{
+
+.footer {
 	background: #2F303A;
 }
-.features{
-background: #FFFFFF;;
+
+.features {
+	background: #FFFFFF;
+	;
 }
-.our-team{
+
+.our-team {
 	background: #F5F4FA;
 }
-.hero{
+
+.hero {
 	background: #2F303A;
-}
-.body-wight{
-	width: 1600px;
 }
