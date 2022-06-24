@@ -1,4 +1,13 @@
-.link {}
+.nav-item:hover,
+.header-link:hover,
+.adress-link:hover,
+.nav-link:hover,
+.nav-item:focus,
+.header-link:focus,
+.adress-link:focus,
+.nav-link:focus {
+	color: #2196F3
+}
 
 .header {
 	background: #FFFFFF;
