@@ -1,13 +1,126 @@
-.nav-item:hover,
+/* Link Styles */
 .header-link:hover,
 .adress-link:hover,
 .nav-link:hover,
-.nav-item:focus,
 .header-link:focus,
 .adress-link:focus,
 .nav-link:focus {
-	color: #2196F3
+	color: #2196F3;
 }
+
+.adress-item {
+	color: #2F303A;
+}
+
+.adress-link {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.03em;
+	color: #FFFFFF;
+}
+
+.footer-link {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.03em;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.nav-item,
+.header-item {
+	color: #FFFFFF;
+}
+
+.header-link {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.02em;
+	color: #757575;
+}
+
+.nav-link {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.02em;
+	color: #212121;
+}
+
+/* Фільтр Портфоліо */
+.filter-list .filter-btn:hover,
+.filter-list .filter-btn:focus {
+	background: #2196F3;
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+	border-radius: 4px;
+}
+
+.filter-item {
+	color: #FFFFFF;
+}
+
+.filter-list {
+	background: #FFFFFF;
+	border-radius: 4px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #212121;
+}
+
+.filter-btn {
+	background: #F5F4FA;
+	border-radius: 4px;
+}
+
+/* index styles */
+.index-hero {
+	background: #2F303A;
+}
+
+.hero-btn {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 30px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+	color: #FFFFFF;
+	background: #2196F3;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+}
+.hero-title{
+	font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 900;
+		font-size: 44px;
+		line-height: 60px;	
+		text-align: center;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;	
+		color: #FFFFFF;
+}
+
+/* .hero-btn:hover,
+.hero-btn:focus {} */
 
 .header {
 	background: #FFFFFF;
