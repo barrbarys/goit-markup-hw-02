@@ -7,7 +7,9 @@
 .nav-link:focus {
 	color: #2196F3;
 }
-
+.body-title,.features-title,.portfolio-title{
+	visibility: hidden;
+}
 .adress-item {
 	color: #2F303A;
 }
@@ -93,6 +95,7 @@
 }
 
 .hero-btn {
+	cursor: pointer;
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
@@ -118,6 +121,7 @@
 		text-transform: uppercase;	
 		color: #FFFFFF;
 }
+
 
 /* .hero-btn:hover,
 .hero-btn:focus {} */
