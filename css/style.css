@@ -17,7 +17,7 @@
 	--adress-col: #ffffff;
 	--btn-col: #ffffff;
 	--btn-hover: #188CE8;
-	--flt-btn-col:#F5F4FA;
+	--flt-btn-col: #F5F4FA;
 
 
 }
@@ -69,9 +69,11 @@ body {
 .header .header-logo {
 	color: var(--logo-bl);
 }
+
 .header {
 	background-color: var(--header-bkgrnd);
 }
+
 .footer-logo {
 	color: var(--text-wh);
 }
@@ -79,6 +81,7 @@ body {
 .footer {
 	background-color: var(--footer-bkgrnd);
 }
+
 .address-link[target="_blank"] {
 	color: var(--adress-col);
 }
@@ -86,7 +89,7 @@ body {
 
 .address {
 	font-style: inherit;
-	color: var(--text-wh1) ;
+	color: var(--text-wh1);
 }
 
 
@@ -210,12 +213,14 @@ body {
 	font-size: 16px;
 	line-height: 1.88;
 }
+
 .nav-item:hover,
 .nav-item:focus,
 .header-li:hover,
 .header-li:focus,
 .address-link:hover,
 .address-link:focus,
-.portf-li:hover, .portf-li:focus {
+.portf-li:hover,
+.portf-li:focus {
 	color: var(--gen-blue);
 }
